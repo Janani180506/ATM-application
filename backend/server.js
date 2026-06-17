@@ -12,10 +12,8 @@ const app = express();
 
 app.use(
     cors({
-        origin: [
-      "http://localhost:5173",
-      "https://atm-application-self.vercel.app"
-    ],
+        origin: 
+      "https://atm-application-self.vercel.app",
     }));
 app.use(express.json());
 
